@@ -1,0 +1,62 @@
+{
+    "1": {
+        "page": 14,
+        "imageFormat": "jpg",
+        "description": ""
+    },
+    "2": {
+        "page": 34,
+        "imageFormat": "jpg",
+        "description": ""
+    },
+    "3": {
+        "page": 26,
+        "imageFormat": "jpg",
+        "description": ""
+    },
+    "4": {
+        "page": 36,
+        "imageFormat": "png",
+        "description": ""
+    },
+    "5": {
+        "page": 60,
+        "imageFormat": "png",
+        "description": ""
+    },
+    "6": {
+        "page": 32,
+        "imageFormat": "jpg",
+        "description": ""
+    },
+    "7": {
+        "page": 38,
+        "imageFormat": "jpg",
+        "description": ""
+    },
+    "8": {
+        "page": 32,
+        "imageFormat": "jpg",
+        "description": ""
+    },
+    "9": {
+        "page": 40,
+        "imageFormat": "jpg",
+        "description": ""
+    },
+    "10": {
+        "page": 36,
+        "imageFormat": "png",
+        "description": ""
+    },
+    "11": {
+        "page": 38,
+        "imageFormat": "png",
+        "description": ""
+    },
+    "12": {
+        "page": 40,
+        "imageFormat": "png",
+        "description": ""
+    }   
+}

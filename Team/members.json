@@ -1,0 +1,153 @@
+[
+    {
+        "title": "Faculty Incharge",
+        "members":[
+            {
+                "name": "Dr. Sindhu V.",
+                "image": "images/Sindhu.jpg",
+                "designation": "Incharge Of Aikyam",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Dr. M. Ambika",
+                "image": "images/Ambika.jpg",
+                "designation": "Incharge Of Aikyam",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            }
+        ]
+    },
+    {
+        "title": "Platinum Members",
+        "members": [
+            {
+                "name": "Simmi Raj",
+                "image": "images/1.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Harsh Kumar",
+                "image": "images/2.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Tejaswi Rayidi",
+                "image": "images/3.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            }
+        ]
+    },
+    {
+        "title": "Diamond Members",
+        "members": [
+            {
+                "name": "Anshika Verma",
+                "image": "images/4.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Samuel Nadar",
+                "image": "images/5.png",
+                "designation": "Team member",
+                "linkedin": "https://www.linkedin.com/in/samuel-nadar/",
+                "instagram": "https://www.instagram.com/samuel_nadar1211/"
+            },
+            {
+                "name": "Hitanshu Kaushik",
+                "image": "images/6.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Pradeep Vidyala",
+                "image": "images/7.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            }
+        ]
+    },
+    {
+        "title": "Gold Members",
+        "members": [
+            {
+                "name": "Akhil B",
+                "image": "images/8.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Utkarsh Verma",
+                "image": "images/9.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Nidhi Vishwakarma",
+                "image": "images/10.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            }
+        ]
+    },
+    {
+        "title": "Silver Members",
+        "members": [
+            {
+                "name": "Nikhil Upadhyay",
+                "image": "images/11.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Pravas Mohanty",
+                "image": "images/12.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Raghubar Kumar",
+                "image": "images/13.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Rohit Upadhyay",
+                "image": "images/14.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Utkarsh Shukla",
+                "image": "images/15.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            },
+            {
+                "name": "Steven Mathew",
+                "image": "images/16.png",
+                "designation": "Team member",
+                "linkedin": "linkedin",
+                "instagram": "instagram"
+            }
+        ]
+    }
+]

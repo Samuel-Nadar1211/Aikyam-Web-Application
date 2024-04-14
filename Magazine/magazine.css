@@ -1,0 +1,102 @@
+section#content {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.filter {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Magazines_available {
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+/*
+.magazines_available {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+*/
+
+#magazineList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+#magazineList div {
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px gray;
+    width: 20%;
+    margin: 15px;
+}
+
+#magazineList div:hover {
+    box-shadow: 4px 6px 4px 4px gray;
+}
+
+#magazineList div img {
+    /* width: 183px; */
+    /* height: 276px; */
+    width: 100%;
+}
+
+#branch {
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.span {
+    color: #b700ff;
+}
+
+.row-lib {
+    padding-top: 60px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-style: oblique;
+}
+
+@media screen and (max-width:450px) {
+    .col-2 .btn {
+        font-size: 1.1rem;
+    }
+
+    #magazineList div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #magazineList div {
+        width: 80%;
+    }
+}
+
+button.download,
+button.view {
+    background-color: bisque;
+    padding: 5px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+img.coverpage {
+    border-radius: 3%;
+    padding: 5px;
+}
