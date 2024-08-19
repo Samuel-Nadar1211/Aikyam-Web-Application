@@ -1,11 +1,11 @@
 <?php
     session_start();
     if(!isset($_SESSION['login']))
-        header("Location: loginwithotp.php");
+        header("Location: Login/loginwithotp.php");
     if(time()-$_SESSION['login_time_stamp'] > 1800)  
     {
         session_unset();
-        header("Location: loginwithotp.php");
+        header("Location: Login/loginwithotp.php");
     }
     $get_issue = $_GET['issue']; 
     $pdfFilePath = 'PDF/Aikyam - '.$get_issue.'.pdf';

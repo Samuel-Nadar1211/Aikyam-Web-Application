@@ -1,0 +1,16 @@
+# Allow only .html and .php files to be accessed directly
+<FilesMatch "\.(html|php)$">
+    Require all granted
+</FilesMatch>
+
+# Deny direct access to .pdf files
+<FilesMatch "\.(pdf)$">
+    Require all denied
+</FilesMatch>
+
+# Allow images (jpg, png) only when accessed from within .html or .php files
+<FilesMatch "\.(jpg|png)$">
+    <If "%{HTTP_REFERER} !~ /Aikyam/">
+        Require all denied
+    </If>
+</FilesMatch>

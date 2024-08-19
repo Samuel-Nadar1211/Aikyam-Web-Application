@@ -22,16 +22,24 @@
 
   <!-- navbar starts -->
   <header>
-    <a href="/" class="logo"><i class="Image"><img draggable="false" class="tilt" src="image/aikyam.jpg"
-          style="height: 40px; padding: 2%;" alt=""></i> Aikyam</a>
+    <!-- <a href="#" class="logo"><i class="Image"><img draggable="false" class="tilt" src=""
+          style="height: 40px; padding: 2%;" alt=""></i> Aikyam</a> -->
+    <div class="logo-container">
+      <a href="#" class="logo">
+        <i class="Image">
+          <img draggable="false" class="tilt" src="image/aikyam.jpg" style="height: 40px; padding: 2%;" alt="">
+        </i>
+        Aikyam
+      </a>
+    </div>
 
     <div id="menu" class="fas fa-bars"></div>
     <nav class="navbar">
       <ul>
         <li><a class="active" href="#">Home</a></li>
-        <li><a href="History/index.html">History</a></li>
-        <li><a href="Team/index.html">Team Members</a></li>
-        <li><a href="Magazine/index.html">Collection</a></li>
+        <li><a href="History/">History</a></li>
+        <li><a href="Team/">Team Members</a></li>
+        <li><a href="Magazine/">Collection</a></li>
         <li><a href="Event/">Events</a></li>
       </ul>
     </nav>
@@ -53,7 +61,8 @@
         <ul class="social-icons">
           <li><a class="mail" aria-label="Mail" href="mailto:aikyam@iiitt.ac.in" target="_blank"><i
                 class="fas fa-envelope"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href=""><i class="fab fa-instagram" target="_blank"></i></a>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/aikyam_production_iiitt/"><i
+                class="fab fa-instagram" target="_blank"></i></a>
           </li>
         </ul>
       </div>
@@ -78,13 +87,17 @@
         <span class="tag">IIIT Trichy's Magazine</span>
 
         <p style="text-align: justify;">
-          We're your window into the vibrant pulse of campus life, showcasing the diverse talents, interests, and achievements of our community. From thought-provoking articles to captivating photography, we strive to encapsulate the essence of our institution through storytelling. Our dedicated team works tirelessly to bring you compelling content that sparks dialogue and celebrates the richness of the IIITT experience. Join us on a journey through academia, creativity, and the myriad perspectives that define our magazine. Thank you for being a part of our story.
+          Welcome to Aikyam, the voice of our vibrant student community. Our magazine is a platform fuelled by passion
+          and creativity, where ideas, stories, and talents converge. Our team of dedicated student writers, designers,
+          and editors work tirelessly to bring you content that resonates. All of this is possible by us being guided by
+          a shared vision to inform, inspire, and connect. Together, we celebrate the diversity and innovation that
+          define our campus, making every issue a true reflection of the collective spirit that drives us forward.
         </p>
 
         <div class="box-container">
           <div class="box">
-            <p><span> email : </span> aikyam@iiitt.ac.in</p>
-            <p><span> place : </span> Tiruchirapalli, Tamil Nadu, India - 620012</p>
+            <p><span> Email : </span> aikyam@iiitt.ac.in</p>
+            <p><span> Place : </span> Tiruchirapalli, Tamil Nadu, India - 620012</p>
           </div>
         </div>
       </div>
@@ -146,24 +159,30 @@
       <div class="box">
         <h3>Quick links</h3>
         <a href="#"><i class="fas fa-chevron-circle-right"></i> Home</a>
-        <a href="History/index.html"><i class="fas fa-chevron-circle-right"></i> History of Aikyam</a>
-        <a href="Team/index.html"><i class="fas fa-chevron-circle-right"></i> Aikyam Team members</a>
-        <a href="Magazine/index.html"><i class="fas fa-chevron-circle-right"></i> Magazine Collection</a>
-        <a href="Event/index.html"><i class="fas fa-chevron-circle-right"></i> Events</a>
-    </div>
+        <a href="History/"><i class="fas fa-chevron-circle-right"></i> History of Aikyam</a>
+        <a href="Team/"><i class="fas fa-chevron-circle-right"></i> Aikyam Team members</a>
+        <a href="Magazine/"><i class="fas fa-chevron-circle-right"></i> Magazine Collection</a>
+        <a href="Event/"><i class="fas fa-chevron-circle-right"></i> Events</a>
+      </div>
 
       <div class="box">
         <h3>contact info</h3>
         <p> <i class="fas fa-envelope"></i>aikyam@iiitt.ac.in</p>
         <p> <i class="fas fa-map-marked-alt"></i>Tiruchirapalli, Tamil Nadu, India - 620012</p>
         <div class="share">
-          <a href="" class="fab fa-instagram" aria-label="LinkedIn" target="_blank"></a>
+          <a href="https://www.instagram.com/aikyam_production_iiitt/" class="fab fa-instagram" aria-label="Instagram"
+            target="_blank"></a>
           <a href="mailto:aikyam@iiitt.ac.in" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
         </div>
       </div>
     </div>
 
-    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a> Samuel, Renganathan, Harish, Utkarsh</a></h1>
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+        href="https://www.linkedin.com/in/samuel-nadar1211" target="_blank">Samuel Nadar</a>, <a
+        href="https://www.linkedin.com/in/renganathan-m-9336b1255/" target="_blank">Renganathan</a>, <a
+        href="https://www.linkedin.com/in/k-s-harish-balagi-10b228201/" target="_blank">Harish Balagi</a>, <a
+        href="https://www.linkedin.com/in/utkarshverma439/" target="_blank">Utkarsh Verma</a> and <a
+        href="https://www.linkedin.com/in/ayush-soni-59392a293/" target="_blank">Ayush Soni</a></h1>
 
   </section>
   <!-- footer section ends -->
@@ -184,7 +203,7 @@
       formData.append('Submission Date', dateTimeString);
 
 
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwvndc0Sq5kBAMEkd2-0hXTONNS9AzvRBg0zNNAnyhYZpO_qf5Lka1EvagYlttQIg/exec'
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwpMSK7hINGzb-5k8R1BY1fldAePkB3mBEv7BMdAIWo4riqHV0Tq8aDuqCicxl1UC0jsA/exec'
       fetch(scriptURL, { method: 'POST', body: formData })
         .then(response => {
           if (response.ok) {

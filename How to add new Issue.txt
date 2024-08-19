@@ -1,0 +1,5 @@
+How to add new Issue `k`
+
+Step 1 - Add your Issue in /Magazine/PDF/Aikyam - `k`.pdf
+Step 2 - Run Python Script `python /Magazine/Flip/loader.py`
+Step 3 - Create an entry in /Magazine/Flip/book.json

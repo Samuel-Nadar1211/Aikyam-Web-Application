@@ -7,7 +7,7 @@ async function myDoc() {
   for (i = 0; i < names.length; i++) {
     script = script + `
         <div class="container2">
-      <h3 class="heading" style="text-align: center; margin-bottom: 5px;">`+ names[i].title + ` <span>Aikyam Team</span>
+      <h3 class="heading" style="text-align: center; margin-bottom: 5px;">`+ names[i].title + ` <span style = "color:#940808">Aikyam Team</span>
       </h3>
       <br>
       <div class="team-grid">

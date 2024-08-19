@@ -1,5 +1,5 @@
 function loadMagazine() {
-    fetch('book.json')
+    fetch('Flip/book.json')
         .then(result => { return result.json() })
         .then(data => {
 
@@ -10,7 +10,7 @@ function loadMagazine() {
 
             for (var i = n; i > 0; i--) {
                 var string = '<div class="magazine">\
-                    <img src="Image/Aikyam - ' + i + '/1.' + data[i].imageFormat + '" class="coverpage">\
+                    <img src="Flip/Image/Aikyam - ' + i + '/1.jpg' + '" class="coverpage">\
                     <h2 class="magazineName" style="text-align: center;">Aikyam - ' + i + '</h2>\
                     <button class="view" onclick="getIssue(' + i + ')">View</button>\
                     <a href="download.php?issue=' + i + '">\
@@ -24,9 +24,5 @@ function loadMagazine() {
 }
 
 function getIssue(n) {
-    fetch('book.json')
-    .then(result => { return result.json() })
-    .then(data => {
-        window.location.href = "flip.php?folder=" + encodeURIComponent("Image/Aikyam - " + n) + "&n=" + encodeURIComponent(data[n].page) + "&imageFormat=" + encodeURIComponent(data[n].imageFormat);
-    });
+    window.location.href = "Flip/flip.php?issue=" + encodeURIComponent(n);
 };
